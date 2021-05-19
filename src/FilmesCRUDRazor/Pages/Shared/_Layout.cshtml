@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - FilmesCRUDRazor</title>
+    <title>@ViewData["Title"] - FilmesFlix</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
@@ -11,7 +11,7 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">Filmes</a>
+                <a class="navbar-brand" asp-area="" asp-page="/Index">FilmesFlix</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -22,10 +22,13 @@
                             <a class="nav-link text-light" asp-area="" asp-page="/Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-page="/Privacy">Sobre Mim</a>
+                            <a class="nav-link text-light" asp-area="" asp-page="/Filmes/Index">Lista de Flimes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-page="/Privacy">Entre em Contato</a>
+                            <a class="nav-link text-light" asp-area="" asp-page="/AboutMe">Sobre Mim</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" asp-area="" asp-page="/Contact">Entre em Contato</a>
                         </li>
                     </ul>
                 </div>
@@ -38,9 +41,9 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="border-top footer text-muted text-center">
         <div class="container">
-            &copy; 2021 - FilmesCRUDRazor - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            &copy; 2021 - FilmesFlix - <a asp-area="" asp-page="/Privacy">Privacy</a>
         </div>
     </footer>
 
